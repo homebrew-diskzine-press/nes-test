@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Users\Duncan\scoop\apps\nvm\current\nodejs\nodejs\node.exe C:\Users\Duncan\scoop\apps\yarn\current\Yarn\bin\yarn.js add @homebrew-diskzine-press/cc65-node
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Oracle\VirtualBoxC:\Users\Duncan\Experiments\pyhttps;C:\Paid\MAMP\bin\php\php5.6.37;C:\Program Files\dotnet\;C:\Apps\opencv\build\x64\vc14\bin;;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Users\Duncan\scoop\apps\yarn\current\Yarn\bin;C:\Users\Duncan\scoop\apps\yarn\current\global\node_modules\.bin;C:\Users\Duncan\scoop\apps\python\current;C:\Users\Duncan\scoop\apps\python\current\Scripts;C:\Users\Duncan\scoop\apps\postgresql\current\bin;C:\Users\Duncan\scoop\apps\openssl\current\bin;C:\Users\Duncan\scoop\apps\perl\current\c\bin;C:\Users\Duncan\scoop\apps\perl\current\perl\bin;C:\Users\Duncan\scoop\apps\perl\current\perl\site\bin;C:\Users\Duncan\.pyenv\pyenv-win\bin;C:\Users\Duncan\.pyenv\pyenv-win\shims;C:\Users\Duncan\scoop\apps\nvm\current\nodejs\nodejs;C:\Users\Duncan\scoop\apps\nodejs\current\bin;C:\Users\Duncan\scoop\apps\nodejs\current;C:\Users\Duncan\scoop\apps\composer\current\home\vendor\bin;C:\Users\Duncan\.windows-build-tools\python27\;C:\Users\Duncan\scoop\apps\nodejs\11.6.0\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\users\duncan\experiments\Giddy-3\duncscripts\node_modules\windows-build-tools\node_modules\.bin;C:\users\duncan\experiments\Giddy-3\duncscripts\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Oracle\VirtualBox;C:\Users\Duncan\AppData\Local\Programs\Python\Launcher\;C:\Users\Duncan\scoop\shims;C:\Users\Duncan\AppData\Local\Microsoft\WindowsApps;C:\Users\Duncan\InstalledApps\win-builds\1.5.0\bin;C:\Users\Duncan\PortableApps\unar;C:\Users\Duncan\Experiments\emsdk\emscripten\1.38.24;C:\Users\Duncan\InstalledApps\msys64\mingw64\bin;C:\Users\Duncan\scoop\apps\latex\2.9.7152\texmfs\install\miktex\bin\x64;C:\OSGeo4W64\bin;C:\Users\Duncan\.dotnet\tools;C:\Users\Duncan\OpenCV\opencv\build\x64\vc14\bin;C:\Users\Duncan\Homebrew\z88dk\z88dk-win32-latest\z88dk\bin;C:\Users\Duncan\Homebrew\cc65-snapshot-win32\bin;C:\Users\Duncan\AppData\Local\Microsoft\WindowsApps;C:\emuvm\commodore-64\GTK3VICE-3.5-win64\bin;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://npm.pkg.github.com/@homebrew-diskzine-press%2fcc65-node: npm package "cc65-node" does not exist under owner "homebrew-diskzine-press"
+      at Request.params.callback [as _callback] (C:\Users\Duncan\scoop\apps\yarn\1.22.5\Yarn\lib\cli.js:66097:18)
+      at Request.self.callback (C:\Users\Duncan\scoop\apps\yarn\1.22.5\Yarn\lib\cli.js:140749:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (C:\Users\Duncan\scoop\apps\yarn\1.22.5\Yarn\lib\cli.js:141721:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (C:\Users\Duncan\scoop\apps\yarn\1.22.5\Yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "@homebrew-diskzine-press/nes-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/homebrew-diskzine-press/nes-test",
+    "author": "Duncan Cross <duncan.cross@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
