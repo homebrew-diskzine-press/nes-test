@@ -21,7 +21,9 @@
 
 
 
-static const char Text [] = "Hello world!";
+static const char Text1 [] = "Homebrew Diskzine Press";
+static const char Text2 [] = "NES Test";
+static const char Text3 [] = "2021";
 
 
 
@@ -65,8 +67,14 @@ int main (void)
     cvlinexy (XSize - 1, 1, YSize - 2);
 
     /* Write the greeting in the mid of the screen */
-    gotoxy ((XSize - strlen (Text)) / 2, YSize / 2);
-    cprintf ("%s", Text);
+    gotoxy ((XSize - strlen (Text1)) / 2, YSize / 2);
+    cprintf ("%s", Text1);
+
+    gotoxy ((XSize - strlen (Text2)) / 2, YSize / 2 + 1);
+    cprintf ("%s", Text2);
+
+    gotoxy (XSize - strlen (Text3) - 1, YSize - 2);
+    cprintf ("%s", Text3);
 
 #if defined(__NES__) || defined(__PCE__) || defined(__GAMATE__) || defined(__ATARI5200__)
 
